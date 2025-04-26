@@ -2,8 +2,8 @@ import argparse
 import sys
 import os
 from antlr4 import *
-from CobolLexer import CobolLexer
-from CobolParser import CobolParser
+from ANTLR.CobolLexer import CobolLexer
+from ANTLR.CobolParser import CobolParser
 import re
 
 def remove_cobol_comments(source_code: str, remove_metadata: bool = True) -> str:
