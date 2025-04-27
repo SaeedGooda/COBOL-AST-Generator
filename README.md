@@ -10,7 +10,7 @@ A Python tool to generate an Abstract Syntax Tree (AST) from COBOL `.cbl` files 
 
 ## Prerequisites
 - Python 3.6+ ([python.org](https://www.python.org/downloads/))
-- A `.cbl` file (e.g., `ICMM3DDC.cbl`)
+- A `.cbl` file (e.g., `HelloWorld.cbl`)
 
 ## Installation
 1. **Clone the Repository**:
@@ -56,8 +56,8 @@ python app.py <input_file.cbl> [--comments enable|disable]
 - Shows: `AST generated successfully: <output_file>`
 
 **Examples**:
-- Remove comments: `python app.py HelloWorld.cbl`
-- Keep comments: `python app.py HelloWorld.cbl --comments enable`
+- Remove comments: `python app.py HelloWorld.cbl --comments enable`
+- Keep comments: `python app.py HelloWorld.cbl`
 
 ## Platform Notes
 - **Windows**: Use `python` (e.g., `python app.py HelloWorld.cbl`)
